@@ -142,6 +142,7 @@ table {
 .container .content {
   width: 600px;
   margin: 0 auto;
+  float: left;
 }
 
 nav {
@@ -152,27 +153,54 @@ nav {
   height: 43px;
 }
 
-.nav-container{
+.nav-container {
   display: flex;
   justify-content: space-between;
   padding: 4px 15px 2px;
   align-items: center;
 }
 
-header{
+header {
   padding-top: 90px;
   font-size: 40px;
 }
 
-.main-image{
+.main-image {
   padding-bottom: 50px;
 }
 
-.main-image img{
+.main-image img {
   width: 945px;
 }
 
-.main-image figcaption{
+.main-image figcaption {
   margin: 10px 20px 0 0;
   width: 720px;
+}
+
+.aside-bar {
+  float: right;
+  width: 210px;
+}
+
+.article-author {
+  height: 20px;
+  margin: 0 0 15px;
+}
+
+.article-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  margin: 0 0 16px;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#footer {
+  clear: both;
 }
