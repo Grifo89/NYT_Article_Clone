@@ -201,6 +201,45 @@ header {
   padding: 8px;
 }
 
-#footer {
+footer {
   clear: both;
+}
+
+.article-body p{
+  color: #333333;
+  font-size: 20px;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.overlap-image{
+  background: lightblue;
+  position: relative;
+  width: 945px;
+
+}
+
+.overlap-image h1{
+  font-size: 20px;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  color: #000;
+}
+
+.overlap-image img{
+  width: 945px;
+}
+
+.overlap-image p{
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.overlap-image p:first-of-type{
+  font-size: 14px;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  color: #666;
 }
