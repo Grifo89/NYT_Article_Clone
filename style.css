@@ -151,6 +151,7 @@ nav {
   background: #fff;
   border-bottom: 1px solid #e2e2e2;
   height: 43px;
+  z-index: 10;
 }
 
 .nav-container {
@@ -214,7 +215,6 @@ footer {
 }
 
 .overlap-image {
-  background: lightblue;
   width: 945px;
 }
 
@@ -254,6 +254,7 @@ footer {
   width: 228px;
   text-align: justify;
   position: absolute;
+  padding-right: 10px;
 }
 
 .pp1 {
@@ -262,13 +263,47 @@ footer {
 
 .pp2 {
   top: 155px;
-  left: 232px;
+  left: 245px;
 }
 .pp3 {
   top: 155px;
-  left: 464px;
+  left: 485px;
 }
 .pp4 {
   top: 155px;
-  left: 692px;
+  left: 728px;
+}
+
+.pp5 {
+  top: 565px;
+}
+.pp6{
+  top: 565px;
+  left: 245px;
+}
+.pp7{
+  top: 565px;
+  left: 485px;
+}
+.pp8 {
+  top: 565px;
+  left: 728px;
+}
+
+.overlap-image .caption{
+  position: relative;
+  top: -95px;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  height: 37px;
+
+}
+
+.overlap-image .caption::before{
+  content: "";
+  width: 60px;
+  display: block;
+  border-top: 1px solid black;
+  padding-bottom: 13px;
+
 }
