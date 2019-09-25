@@ -134,6 +134,10 @@ table {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   margin: 0 auto;
   width: 885px;
@@ -347,8 +351,12 @@ footer {
   border-radius: 4px;
   padding: 10px;
   margin: 0px;
+  cursor: pointer;
 }
 
+.btn:hover {
+  background: rgb(69, 109, 139);
+}
 .aside-bar .signup-science button {
   width: 100%;
 }
@@ -415,4 +423,60 @@ footer {
 
 .article-comment-btn {
   width: 330px;
+}
+
+.blog-container {
+  position: relative;
+  width: 1281px;
+  padding: 20px 0 0 0;
+}
+
+.blog-left {
+  width: 852px;
+  float: left;
+}
+
+.blog-right {
+  width: 315px;
+  float: right;
+}
+
+.blog-first {
+}
+
+.blog-first h5 {
+  background-color: white;
+  font-weight: 700;
+  padding: 17px 0px 0px;
+  border-top: 1px solid black;
+  font-size: 16px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 20px;
+}
+
+.thumbnails {
+  padding: 0 20px 20px 0;
+}
+.thumb-img img {
+  height: auto;
+  max-width: 100%;
+}
+
+.thumb-img {
+  padding: 0 0 20px 0;
+}
+.thumb-info h2 {
+  font-size: 18px;
+  color: #121212;
+  margin: 0 10px 0 0;
+  font-weight: 500;
+}
+
+.thumb-info span {
+  color: #999;
+  font-size: 12px;
 }
