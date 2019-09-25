@@ -139,7 +139,7 @@ table {
   width: 885px;
 }
 
-.container .content {
+.content-container .content {
   width: 600px;
   margin: 0 auto;
   float: left;
@@ -324,8 +324,7 @@ footer {
 
 .aside-bar .signup-science p {
   font-style: normal;
-  font-weight: 500;
-  margin-left: 0px;
+  margin: 0 0 10px;
   font-size: 0.8125rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
@@ -370,12 +369,12 @@ footer {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.aside-bar .editor-picks article{
+.aside-bar .editor-picks article {
   overflow: hidden;
   margin: 10px 0;
 }
 
-.aside-bar .editor-picks article a{
+.aside-bar .editor-picks article a {
   display: inline-block;
   width: 210px;
 }
@@ -394,4 +393,26 @@ footer {
   line-height: 17px;
   color: rgb(51, 51, 51);
   padding-top: 15px;
+}
+
+.content-container {
+  /* width: 1170px; */
+}
+
+.article-bottom-info p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  max-width: 600px;
+  margin: 0 auto 1em;
+  color: #999;
+}
+
+.article-share {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-comment-btn {
+  width: 330px;
 }
