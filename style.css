@@ -138,10 +138,6 @@ a {
   text-decoration: none;
 }
 
-/* ================================
-     Navbar
-================================ */
-
 nav {
   width: 100%;
   position: fixed;
@@ -172,9 +168,6 @@ nav {
   text-decoration: underline;
 }
 
-/* ================================
-     HEADER BOX
-================================ */
 .header-container {
   width: 100%;
 }
@@ -219,18 +212,12 @@ figure {
   font-size: 14px;
 }
 
-/* =============================
-      CONTENT AND ASIDE bar
-============================== */
 .content-container {
   width: 1170px;
   margin: 0 auto;
 }
 
-/* LAYOUT */
-
 .article {
-  /* width: 1170px; */
   width: 970px;
   margin: 0 auto;
   height: auto;
@@ -251,8 +238,6 @@ figure {
 .article-body figure {
   width: 600px;
 }
-
-/* ASIDE BAR STYLING */
 
 .aside-bar {
   float: right;
@@ -357,8 +342,6 @@ figure {
   padding-top: 15px;
 }
 
-/* CONTENT STYLING */
-
 .article-meta-flex {
   display: flex;
   align-items: center;
@@ -416,12 +399,6 @@ figure {
   font-size: 14px;
 }
 
-/* =============================
-      OVERLAP IMAGE
-============================== */
-
-/* OVERLAP IMAGE LAYOUT */
-
 .overlap-image {
   width: 945px;
   margin: 0 auto;
@@ -436,7 +413,6 @@ figure {
   position: relative;
   height: 845px;
 }
-/* OVERLAP IMAGE STYLING */
 
 .overlap-image h1 {
   font-size: 20px;
@@ -537,12 +513,6 @@ figure {
   width: 600px;
 }
 
-/* =============================
-      BOTTOM
-============================== */
-
-/* BOTTOM LAYOUT */
-
 .blog-container {
   width: 1200px;
   margin: 0 auto;
@@ -612,7 +582,6 @@ figure {
   display: flex;
   padding: 0 40px;
 }
-/* BOTTOM STYLING */
 
 .article-bottom-info p {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -649,8 +618,6 @@ hr {
   border: 0.5px solid #333;
   margin-top: 20px;
 }
-
-/* BOTTOM STYLING */
 
 .blog-container .sec-title {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
