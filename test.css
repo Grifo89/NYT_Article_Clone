@@ -134,9 +134,13 @@ table {
   box-sizing: border-box;
 }
 
-/*================================
+a {
+  text-decoration: none;
+}
+
+/* ================================
      Navbar
-================================*/
+================================ */
 
 nav {
   width: 100%;
@@ -154,26 +158,45 @@ nav {
   align-items: center;
 }
 
+.nav-icons a {
+  display: inline-block;
+  padding-right: 20px;
+}
 
-/*================================
+.nav-icons a:nth-child(3) {
+  color: #000;
+  font-weight: 900;
+}
+
+.nav-icons a:nth-child(3):hover {
+  text-decoration: underline;
+}
+
+/* ================================
      HEADER BOX
-================================*/
-.header-container{
-  width: 100%
+================================ */
+.header-container {
+  width: 100%;
 }
 
 header {
-  padding-top: 90px;
+  padding: 90px 0 30px 0;
   font-size: 40px;
-  width: calc(100%/2);
+  width: calc(100% / 2);
   margin: 0 auto;
+}
+
+header h1 {
+  font-weight: 900;
+  font-style: italic;
+  line-height: 3rem;
 }
 
 .main-image {
   padding-bottom: 50px;
 }
 
-figure{
+figure {
   width: 945px;
   margin: 0 auto;
 }
@@ -185,32 +208,47 @@ figure{
 .main-image figcaption {
   margin: 10px 20px 0 0;
   width: 720px;
+  font-size: 16px;
 }
 
-/*=============================
+.main-image figcaption p {
+  color: #666;
+}
+
+.main-image figcaption p:nth-child(2) {
+  font-size: 14px;
+}
+
+/* =============================
       CONTENT AND ASIDE bar
-==============================*/
+============================== */
+.content-container {
+  width: 1170px;
+  margin: 0 auto;
+}
 
 /* LAYOUT */
 
-.article{
-  width: 1170px;
+.article {
+  /* width: 1170px; */
+  width: 970px;
   margin: 0 auto;
-  /* background: #aec9f5; */
+  height: auto;
+  float: left;
+  padding-left: 200px;
 }
 
-.article-body{
-  width: 600px;
-  /* background: lightblue; */
-  margin: 0 auto;
-}
-
-.article-meta{
+.article-body {
   width: 600px;
   margin: 0 auto;
 }
 
-.article-body figure{
+.article-meta {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.article-body figure {
   width: 600px;
 }
 
@@ -218,15 +256,13 @@ figure{
 
 .aside-bar {
   float: right;
-  width: 210px;
-  position: relative;
-  top: -2200px;
-  left: -60px;
+  width: 200px;
+  padding-top: 280px;
 }
 
 .aside-bar {
   text-align: left;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
 }
 
 .aside-bar .signup-science {
@@ -260,11 +296,16 @@ figure{
   background: rgb(98, 136, 165);
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(98, 136, 165);
+  border-color: rgb(57, 91, 117);
   border-image: initial;
   border-radius: 4px;
   padding: 10px;
   margin: 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(69, 109, 139);
 }
 
 .aside-bar .signup-science button {
@@ -295,6 +336,10 @@ figure{
 .aside-bar .editor-picks article a {
   display: inline-block;
   width: 210px;
+}
+
+.editor-picks article a h3:hover {
+  text-decoration: underline;
 }
 
 .aside-bar .editor-picks article a img {
@@ -332,23 +377,55 @@ figure{
 
 .social-icons ul li {
   display: inline-block;
-  padding: 8px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 80px;
+  text-align: center;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+
+.social-icons ul li:hover {
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.fab,
+.fas,
+.far {
+  width: 15px;
+  height: 15px;
+  color: #222;
+}
+
+.social-icons ul li:nth-child(5),
+.social-icons ul li:nth-child(6) {
+  font-size: 20px;
+  background: white;
 }
 
 .article-author {
   height: 20px;
   margin: 0 0 15px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-/*=============================
+.article-date {
+  font-size: 14px;
+}
+
+/* =============================
       OVERLAP IMAGE
-==============================*/
+============================== */
 
 /* OVERLAP IMAGE LAYOUT */
 
 .overlap-image {
   width: 945px;
   margin: 0 auto;
+  clear: both;
 }
 
 .overlap-image img {
@@ -357,6 +434,7 @@ figure{
 
 .overlap-image-container {
   position: relative;
+  height: 845px;
 }
 /* OVERLAP IMAGE STYLING */
 
@@ -364,14 +442,16 @@ figure{
   font-size: 20px;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   color: #000;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
-
 
 .overlap-image #first-overlap {
   font-size: 14px;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   color: #666;
-  width: 909;
+  width: 909px;
 }
 
 .overlap-image p span {
@@ -379,7 +459,6 @@ figure{
   font-weight: bold;
   letter-spacing: 0.05em;
 }
-
 
 .overlap-image-container p {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
@@ -442,15 +521,31 @@ figure{
   padding-bottom: 13px;
 }
 
-/*=============================
+.video-caption span {
+  color: #666;
+}
+
+.video-caption {
+  padding-bottom: 20px;
+}
+
+.btm-pic-cap p {
+  padding-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+  width: 600px;
+}
+
+/* =============================
       BOTTOM
-==============================*/
+============================== */
 
 /* BOTTOM LAYOUT */
 
 .article-share {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 .blog-container {
@@ -476,7 +571,6 @@ figure{
   float: right;
 }
 
-
 /* BOTTOM STYLING */
 
 .article-bottom-info p {
@@ -486,6 +580,15 @@ figure{
   max-width: 600px;
   margin: 0 auto 1em;
   color: #999;
+  padding-bottom: 15px;
+}
+
+.article-bottom-info p a {
+  color: #999;
+}
+
+.article-bottom-info p a:hover {
+  text-decoration: underline;
 }
 
 .article-comment-btn {
