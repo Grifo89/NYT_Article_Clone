@@ -91,7 +91,7 @@ module.exports = {
         "selector-attribute-operator-space-before": "never",
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
-        "selector-descendant-combinator-no-non-space": false,
+        "selector-descendant-combinator-no-non-space": true,
         "selector-list-comma-newline-after": "always",
         "selector-list-comma-space-before": "never",
         "selector-max-empty-lines": 0,
