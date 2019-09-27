@@ -164,6 +164,11 @@ nav {
   font-weight: 900;
 }
 
+.aside-bar .editor-picks article a {
+  display: inline-block;
+  width: 210px;
+}
+
 .nav-icons a:nth-child(3):hover {
   text-decoration: underline;
 }
@@ -198,14 +203,49 @@ figure {
   width: 945px;
 }
 
+.article-body p {
+  color: #333;
+  font-size: 20px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
 .main-image figcaption {
   margin: 10px 20px 0 0;
   width: 720px;
   font-size: 16px;
 }
 
+.overlap-image-container p {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+  width: 228px;
+  text-align: justify;
+  position: absolute;
+  padding-right: 10px;
+}
+
+.btm-pic-cap p {
+  padding-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+  width: 600px;
+}
+
 .main-image figcaption p {
   color: #666;
+}
+
+.aside-bar .signup-science p {
+  font-style: normal;
+  margin: 0 0 10px;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
 }
 
 .main-image figcaption p:nth-child(2) {
@@ -243,30 +283,21 @@ figure {
   float: right;
   width: 200px;
   padding-top: 280px;
-}
-
-.aside-bar {
   text-align: left;
   font-family: "nyt-franklin", helvetica, arial, sans-serif;
 }
 
+
 .aside-bar .signup-science {
   height: 585px;
 }
+
 .aside-bar .signup-science h2 {
   color: #000;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   margin: 5px;
-}
-
-.aside-bar .signup-science p {
-  font-style: normal;
-  margin: 0 0 10px;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  color: rgb(102, 102, 102);
 }
 
 .btn {
@@ -285,7 +316,7 @@ figure {
   border-image: initial;
   border-radius: 4px;
   padding: 10px;
-  margin: 0px;
+  margin: 0;
   cursor: pointer;
 }
 
@@ -303,8 +334,8 @@ figure {
 
 .aside-bar .editor-picks h2 {
   font-weight: 700;
-  color: rgb(0, 0, 0);
-  margin-top: 0px;
+  color: black;
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 14px;
@@ -318,13 +349,13 @@ figure {
   margin: 10px 0;
 }
 
-.aside-bar .editor-picks article a {
-  display: inline-block;
-  width: 210px;
-}
 
 .editor-picks article a h3:hover {
   text-decoration: underline;
+}
+
+.overlap-image img {
+  width: 945px;
 }
 
 .aside-bar .editor-picks article a img {
@@ -335,7 +366,7 @@ figure {
 .aside-bar .editor-picks article a h3 {
   float: right;
   width: 125px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, "times new roman" serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
@@ -348,14 +379,6 @@ figure {
   justify-content: space-between;
   height: 35px;
   margin: 0 0 16px;
-}
-
-.article-body p {
-  color: #333333;
-  font-size: 20px;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  margin-bottom: 15px;
-  line-height: 1.6;
 }
 
 .social-icons ul li {
@@ -405,10 +428,6 @@ figure {
   clear: both;
 }
 
-.overlap-image img {
-  width: 945px;
-}
-
 .overlap-image-container {
   position: relative;
   height: 845px;
@@ -430,22 +449,14 @@ figure {
   width: 909px;
 }
 
+.video-caption span {
+  color: #666;
+}
+
 .overlap-image p span {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.05em;
-}
-
-.overlap-image-container p {
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 300;
-  color: #000;
-  width: 228px;
-  text-align: justify;
-  position: absolute;
-  padding-right: 10px;
 }
 
 .pp1 {
@@ -456,10 +467,12 @@ figure {
   top: 155px;
   left: 245px;
 }
+
 .pp3 {
   top: 155px;
   left: 485px;
 }
+
 .pp4 {
   top: 155px;
   left: 728px;
@@ -468,14 +481,17 @@ figure {
 .pp5 {
   top: 565px;
 }
+
 .pp6 {
   top: 565px;
   left: 245px;
 }
+
 .pp7 {
   top: 565px;
   left: 485px;
 }
+
 .pp8 {
   top: 565px;
   left: 728px;
@@ -498,25 +514,16 @@ figure {
   padding-bottom: 13px;
 }
 
-.video-caption span {
-  color: #666;
-}
-
 .video-caption {
   padding-bottom: 20px;
 }
 
-.btm-pic-cap p {
-  padding-bottom: 20px;
-  color: #666;
-  font-size: 16px;
-  width: 600px;
-}
 
 .blog-container {
   width: 1200px;
   margin: 0 auto;
 }
+
 .article-share {
   display: flex;
   justify-content: space-between;
@@ -548,6 +555,7 @@ figure {
   width: 273px;
   height: 300px;
   padding: 10px 0;
+  position: relative;
 }
 
 .blog-aside {
@@ -575,6 +583,7 @@ figure {
 .blog-logo svg {
   padding-left: 37px;
 }
+
 .blog-links {
   width: 1281px;
   height: 391px;
@@ -603,6 +612,7 @@ figure {
 
 .blog-link-column {
   flex-grow: 1;
+  padding: 0 3px;
 }
 
 footer {
@@ -632,11 +642,9 @@ hr {
   text-align: right;
   color: rgb(153, 153, 153);
   display: block;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, "times new roman" serif;
 }
-.thumnails {
-  position: relative;
-}
+
 
 .thumnails h2 {
   font-size: 1.125rem;
@@ -665,7 +673,7 @@ hr {
 .blog-links .blog-link-column a {
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin sans-serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
@@ -681,7 +689,7 @@ hr {
 
 .blog-aside a {
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman" serif, times, serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.1875rem;
@@ -690,16 +698,14 @@ hr {
 
 .blog-logo a {
   color: rgb(98, 136, 165);
-  font-family: nyt-franklin;
+  font-family: nyt-franklin sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 11px;
   text-decoration: none;
 }
-.blog-link-column {
-  padding: 0 3px;
-}
+
 .blog-links .last {
   border-left: 1px solid rgb(226, 226, 226);
 }
@@ -717,7 +723,7 @@ hr {
   font-weight: 700;
   height: 25px;
   line-height: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   text-decoration: none;
 }
 
@@ -725,7 +731,7 @@ footer a {
   color: rgb(153, 153, 153);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   white-space: nowrap;
-  padding: 10px 0px;
+  padding: 10px 0;
   text-decoration: none;
   font-size: 11px;
 }
