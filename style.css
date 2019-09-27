@@ -154,9 +154,41 @@ nav {
   align-items: center;
 }
 
+footer a {
+  color: rgb(153, 153, 153);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
+}
+
 .nav-icons a {
   display: inline-block;
   padding-right: 20px;
+}
+
+.article-bottom-info p a {
+  color: #999;
+}
+
+.blog-aside a {
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman" serif, times, serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+}
+
+.blog-logo a {
+  color: rgb(98, 136, 165);
+  font-family: nyt-franklin sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
 }
 
 .nav-icons a:nth-child(3) {
@@ -167,6 +199,23 @@ nav {
 .aside-bar .editor-picks article a {
   display: inline-block;
   width: 210px;
+}
+
+.blog-links .blog-link-column a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: nyt-franklin sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.article-bottom-info p a:hover {
+  text-decoration: underline;
 }
 
 .nav-icons a:nth-child(3):hover {
@@ -236,6 +285,16 @@ figure {
   width: 600px;
 }
 
+.article-bottom-info p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  max-width: 600px;
+  margin: 0 auto 1em;
+  color: #999;
+  padding-bottom: 15px;
+}
+
 .main-image figcaption p {
   color: #666;
 }
@@ -290,6 +349,14 @@ figure {
 
 .aside-bar .signup-science {
   height: 585px;
+}
+
+.thumnails h2 {
+  font-size: 1.125rem;
+  line-height: 22px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
+  padding: 4px 0;
 }
 
 .aside-bar .signup-science h2 {
@@ -379,6 +446,10 @@ figure {
   justify-content: space-between;
   height: 35px;
   margin: 0 0 16px;
+}
+
+footer li {
+  display: inline-block;
 }
 
 .social-icons ul li {
@@ -497,6 +568,14 @@ figure {
   left: 728px;
 }
 
+.caption {
+  font-size: 0.625rem;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  display: block;
+  font-family: nyt-cheltenham-small, georgia, "times new roman" serif;
+}
+
 .overlap-image .caption {
   text-align: left;
   position: relative;
@@ -592,24 +671,6 @@ figure {
   padding: 0 40px;
 }
 
-.article-bottom-info p {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  max-width: 600px;
-  margin: 0 auto 1em;
-  color: #999;
-  padding-bottom: 15px;
-}
-
-.article-bottom-info p a {
-  color: #999;
-}
-
-.article-bottom-info p a:hover {
-  text-decoration: underline;
-}
-
 .blog-link-column {
   flex-grow: 1;
   padding: 0 3px;
@@ -618,10 +679,6 @@ figure {
 footer {
   height: 75px;
   text-align: center;
-}
-
-footer li {
-  display: inline-block;
 }
 
 hr {
@@ -635,23 +692,6 @@ hr {
   font-weight: 700;
   color: #333;
   padding-top: 20px;
-}
-
-.caption {
-  font-size: 0.625rem;
-  text-align: right;
-  color: rgb(153, 153, 153);
-  display: block;
-  font-family: nyt-cheltenham-small, georgia, "times new roman" serif;
-}
-
-
-.thumnails h2 {
-  font-size: 1.125rem;
-  line-height: 22px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 500;
-  padding: 4px 0;
 }
 
 .thumnails .time {
@@ -670,40 +710,8 @@ hr {
   height: 25px;
 }
 
-.blog-links .blog-link-column a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  font-family: nyt-franklin sans-serif;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
-  text-decoration: none;
-}
-
 .blog-links .blog-link-column a:hover {
   text-decoration: underline;
-}
-
-.blog-aside a {
-  color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman" serif, times, serif;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-}
-
-.blog-logo a {
-  color: rgb(98, 136, 165);
-  font-family: nyt-franklin sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  text-decoration: none;
 }
 
 .blog-links .last {
@@ -725,15 +733,6 @@ hr {
   line-height: 15px;
   padding-bottom: 0;
   text-decoration: none;
-}
-
-footer a {
-  color: rgb(153, 153, 153);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  white-space: nowrap;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 11px;
 }
 
 #line {
