@@ -13,7 +13,7 @@ Read more about the project detailed description from the [Odin website](https:/
 
 ### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/forms-for-collecting-data)
 
-### [Live link]()
+### [Live link](https://rawcdn.githack.com/Grifo89/NYT_Article_Clone/master/index.html)
 
 # Languages Used
 
