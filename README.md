@@ -4,6 +4,8 @@ This is the project of the Main HTML/CSS curriculum at [Microverse](https://www.
 This assignment consists of making a clone of a New [York Times article page](https://minurl.me/SPw3rb).
 Read more about the project detailed description from the [Odin website](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements).
 
+Live link: https://grifo89.github.io/NYT_Article_Clone/
+
 ## Project Objectives
 
 - Embedding images
